@@ -5,7 +5,7 @@ let answerDisplayed=false
 num.forEach(function(key){
     key.addEventListener('click', function(){
         var buttonText=key.textContent;
-        if(answerSpace.textContent.length <=19)
+        if(answerSpace.textContent.length <=11)
         {answerSpace.textContent+=buttonText}
         else{
             alert("INPUT SPACE FULL");
