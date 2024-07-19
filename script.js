@@ -1,7 +1,10 @@
+window.onload = function (){
+    alert("This Calc is glitchy currently, we urge you to click on the Reset button before starting the arithmetic operation");
+}
 
-alert("This Calc is glitchy currently, we urge you to click on the "Reset" button before starting the arithmetic operation");
 var num =document.querySelectorAll(".keypad");
 var answerSpace = document.getElementById('answerSpace');
+
 let answerDisplayed=false
 
 num.forEach(function(key){
